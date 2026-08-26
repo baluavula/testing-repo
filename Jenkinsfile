@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ('welcome'){
+        stage ('buildSatge'){
             steps {
-                echo "welocme to jenkins: "
+                echo "building the  application:"
             }
         }
     }
