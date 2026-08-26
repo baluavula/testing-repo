@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage ('welcome'){
-            scripts {
+            steps {
                 echo "welocme to jenkins: "
             }
         }
